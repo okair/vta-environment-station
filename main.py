@@ -19,7 +19,6 @@ bot = telepot.Bot(config.telebot_secret)
 currentTime = datetime.datetime.now()
 now = datetime.datetime.now()
 hour = now.strftime('%H')
-print( int(hour,10) )
 
 ## SDS011 Sensor
 sensor = sds011.SDS011("/dev/ttyUSB0", use_query_mode=True)
